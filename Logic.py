@@ -37,11 +37,12 @@ def exdisj(p,q):
     else:
         return True
 
-p = False 
-q = False
+p = False #Input directly the truth value you want to test 
+q = False #Input directly the truth value you want to test 
 print("p= " + str (p) )
 print("q= " + str (q) )
 
+#The part below is optionnal.
 print("conj (p,q) = " + str(conj(p,q)))
 print("disj (p,q) = " + str(disj (p,q)))
 print("impl (p,q) = "+ str(impl (p,q)))
