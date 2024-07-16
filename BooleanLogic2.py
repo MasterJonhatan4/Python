@@ -1,4 +1,6 @@
 """BOOLEAN LOGIC"""
+#The objective of this program is to find the bitwise of two bit strings of lenght n
+
 
 def AND (b1,b2):
     if b1 == "1" and b2 == "1":
@@ -19,11 +21,11 @@ def XOR (b1,b2):
         return "1"
     else :
         return "0"
- 
+
+
 n = 4 # n is the lenght of the bits
 b1 = "1111"
 b2 = "0101"
-
 
 b=""
 for i in range (n):
