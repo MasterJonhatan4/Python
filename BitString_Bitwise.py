@@ -1,5 +1,5 @@
 """BOOLEAN LOGIC"""
-#The objective of this program is to find the bitwise of two bit strings of lenght n
+#The goal of this program is to perform bitwise operations (AND, OR, XOR) on two bit strings each of length n.
 
 
 def AND (b1,b2):
