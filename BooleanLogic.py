@@ -1,4 +1,6 @@
 """BOOLEAN LOGIC"""
+#The purpose of this program is to illustrate fundamental propositional logic functions like AND, OR, and XOR. 
+
 
 def AND(b1,b2,b):
     if b1 and b2 == "1":
